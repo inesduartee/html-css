@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(102, 102, 102);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+        
+        article > aside {
+            background-color: darkgray;
+        }
+        footer{
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;
+            padding: 1px;
+        }
+    </style>
+</head>
+<body>
+    <!--
+    <div>
+        <div id="cabeçalho">
+            <h1></h1>
+        </div>
+
+        <div id="menu">
+        </div>
+
+        <div id="conteúdo">
+        </div>
+
+        <div id="rodapé">
+        </div>
+    </div>
+    -->
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link1</a>
+            <a href="#">Link2</a>
+            <a href="#">Link3</a>
+            <a href="#">Link4</a>
+            <a href="#">Link5</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Desporto Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre Almeirim</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, commodi fuga qui impedit dignissimos illum expedita reiciendis odit dolores recusandae harum eaque error reprehenderit labore fugit cumque veritatis, laudantium voluptates?</p>
+                <aside>
+                    <p>Artigo escrito por Seni</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido em Sistemas de Informação / 3ºano TM</p>
+    </footer>
+</body>
+</html>
